@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background: aqua;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.lista{
+.lista {
     background-color: rgb(130, 130, 240);
     width: 500px;
     margin: auto;
@@ -24,16 +24,16 @@ body{
 }
 
 
-.anadir{
+.anadir {
     display: flex;
     align-content: space-between;
 }
 
-.lista h1{
+.lista h1 {
     color: white;
 }
 
-.anadir .inputtask{
+.anadir .inputtask {
     width: 80%;
     padding: 10px;
     margin-right: 5px;
@@ -42,41 +42,41 @@ body{
     font-weight: 800;
 }
 
-.anadir ::placeholder{
+.anadir ::placeholder {
     font-weight: 900;
 }
 
-.anadir button{
+.anadir button {
     padding: 10px 5px;
     display: inline-block;
     border-radius: 5px;
     border: solid 1px transparent;
-    cursor:pointer;
+    cursor: pointer;
     font-weight: bold;
     opacity: 0.6;
     pointer-events: none;
 }
 
-.anadir button.active{
+.anadir button.active {
     opacity: 1;
     pointer-events: auto;
 }
 
-.anadir button i{
+.anadir button i {
     font-size: 20px;
     align-content: center;
 }
 
-.tasks h3{
+.tasks h3 {
     color: white;
     margin-top: 30px;
 }
 
-.listaa{
+.listaa {
     width: 100%;
 }
 
-.listaa li{
+.listaa li {
     list-style: none;
     height: 40px;
     line-height: 40px;
@@ -88,7 +88,7 @@ body{
     padding: 0 15px;
 }
 
-.listaa li span{
+.listaa li span {
     position: absolute;
     right: 0px;
     color: black;
@@ -97,26 +97,30 @@ body{
     cursor: pointer;
 }
 
-.pendientes{
+.listaa li span:hover {
+    color: rgb(192, 4, 4);
+}
+
+.pendientes {
     color: white;
     margin-top: 15px;
 }
 
-.pendientes button{
+.pendientes button {
     padding: 2px;
     border: solid 10px transparent;
-    border-radius: 5pc;
+    border-radius: 5px;
     font-weight: 800;
     cursor: pointer;
 }
 
-.pendientes button.active{
+.pendientes button.active {
     opacity: 0.6;
-    pointer-events: auto;
+    pointer-events: none;
 }
 
-@media screen and (max-width: 800px){
-    .lista{
+@media screen and (max-width: 800px) {
+    .lista {
         width: 95%;
     }
 
