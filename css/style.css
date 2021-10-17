@@ -8,7 +8,7 @@
 }
 
 body{
-    background: url("../img/fondo.png");
+    background: aqua;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ body{
     align-content: space-between;
 }
 
-.anadir h1{
+.lista h1{
     color: white;
 }
 
@@ -113,4 +113,11 @@ body{
 .pendientes button.active{
     opacity: 0.6;
     pointer-events: auto;
+}
+
+@media screen and (max-width: 800px){
+    .lista{
+        width: 95%;
+    }
+
 }
