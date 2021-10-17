@@ -107,6 +107,7 @@ body {
 }
 
 .pendientes button {
+    width: 100%;
     padding: 2px;
     border: solid 10px transparent;
     border-radius: 5px;
